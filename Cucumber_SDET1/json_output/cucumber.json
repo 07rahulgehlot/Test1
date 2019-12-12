@@ -1,0 +1,55 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "myaccount-login-feature;successful-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4408940100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open Browser",
+            "match": {
+              "location": "MyAccountLogninStepDefinitions.open_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6529618500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the URL",
+            "match": {
+              "location": "MyAccountLogninStepDefinitions.enter_the_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Click on MyAccount menu iteam",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "MyAccount Login Feature",
+    "description": "Description: this Feature will test a login functionality",
+    "id": "myaccount-login-feature",
+    "keyword": "Feature",
+    "uri": "features/test.feature"
+  }
+]
